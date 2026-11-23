@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Claude" pages="4">
+  <diagram id="p0" name="A-0 Контекст">
+    <mxGraphModel dx="4438" dy="2213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OOAcvrO87wZ386GwSQXE-1" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="A-0. Контекстна діаграма: Визначення діагнозу пацієнта (IDEF0)" vertex="1">
+          <mxGeometry height="30" width="900" x="790" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A0. Визначити діагноз пацієнта" vertex="1">
+          <mxGeometry height="110" width="160" x="1274" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Клінічні протоколи, МКХ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1354" y="620" as="sourcePoint" />
+            <mxPoint x="1354" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Лікар, медичне обладнання, МІС">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1354" y="1010" as="sourcePoint" />
+            <mxPoint x="1354" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Скарги та анамнез пацієнта">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="865" as="sourcePoint" />
+            <mxPoint x="1274" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Діагноз і план лікування">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1434" y="865" as="sourcePoint" />
+            <mxPoint x="1919" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-7" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="A0. Декомпозиція: Визначення діагнозу пацієнта" vertex="1">
+          <mxGeometry height="30" width="900" x="2608.181818181818" y="741.818181818182" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A1. Опитати пацієнта і зібрати анамнез" vertex="1">
+          <mxGeometry height="110" width="160" x="2632.971818181818" y="991.818181818182" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.464;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="OOAcvrO87wZ386GwSQXE-8" value="Клінічні протоколи">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2702.9697342135687" y="832.6667383367367" as="sourcePoint" />
+            <mxPoint x="2797.181818181818" y="991.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Лікар-терапевт">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2702.971818181818" y="1191.818181818182" as="sourcePoint" />
+            <mxPoint x="2702.971818181818" y="1101.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-8" value="Скарги пацієнта">
+          <mxGeometry relative="1" x="0.7917" y="-105" as="geometry">
+            <mxPoint x="-105" y="-105" as="offset" />
+            <mxPoint x="2392.9697342135687" y="1046.8167383367368" as="sourcePoint" />
+            <mxPoint x="2717.181818181818" y="1046.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A2. Провести огляд і призначити обстеження" vertex="1">
+          <mxGeometry height="110" width="160" x="2912.971818181818" y="991.818181818182" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-12" value="Стандарти обстеження">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2992.9697342135687" y="812.6667383367367" as="sourcePoint" />
+            <mxPoint x="3047.181818181818" y="991.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Лікар, медперсонал">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3047.181818181818" y="1191.818181818182" as="sourcePoint" />
+            <mxPoint x="3047.181818181818" y="1101.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-15" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-8" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-12" value="Анамнез">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2877.181818181818" y="1046.818181818182" as="sourcePoint" />
+            <mxPoint x="2967.181818181818" y="1046.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A3. Провести лабораторні та інструментальні дослідження" vertex="1">
+          <mxGeometry height="110" width="160" x="3222.971818181818" y="991.818181818182" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Регламент лабораторії">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3297.181818181818" y="801.818181818182" as="sourcePoint" />
+            <mxPoint x="3297.181818181818" y="991.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Лабораторія, апаратура">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3297.181818181818" y="1191.818181818182" as="sourcePoint" />
+            <mxPoint x="3297.181818181818" y="1101.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-19" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-12" style="endArrow=classic;html=1;rounded=0;fontSize=11;" target="OOAcvrO87wZ386GwSQXE-16" value="Призначені обстеження">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3127.181818181818" y="1046.818181818182" as="sourcePoint" />
+            <mxPoint x="3217.181818181818" y="1046.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A4. Проаналізувати результати і встановити діагноз" vertex="1">
+          <mxGeometry height="110" width="160" x="3532.971818181818" y="991.818181818182" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-20" value="МКХ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3612.9697342135687" y="852.6667383367367" as="sourcePoint" />
+            <mxPoint x="3547.181818181818" y="991.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Лікар, МІС">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3602.9697342135687" y="1192.6667383367367" as="sourcePoint" />
+            <mxPoint x="3602.9697342135687" y="1102.6667383367367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-23" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-16" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="OOAcvrO87wZ386GwSQXE-20" value="Результати досліджень">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3377.181818181818" y="1046.818181818182" as="sourcePoint" />
+            <mxPoint x="3467.181818181818" y="1046.818181818182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-24" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-20" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Діагноз, план лікування, запис у картку">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3652.9697342135687" y="1046.8167383367368" as="sourcePoint" />
+            <mxPoint x="3962.9697342135687" y="1046.8167383367368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-25" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="A3. Декомпозиція: Лабораторні та інструментальні дослідження" vertex="1">
+          <mxGeometry height="30" width="900" x="4062.727272727273" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A31. Взяти біоматеріал у пацієнта" vertex="1">
+          <mxGeometry height="110" width="160" x="4296.727272727273" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Регламент забору">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4376.727272727273" y="1020" as="sourcePoint" />
+            <mxPoint x="4376.727272727273" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Медичний персонал">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4376.727272727273" y="1410" as="sourcePoint" />
+            <mxPoint x="4376.727272727273" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Призначені обстеження">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4062.727272727273" y="1265" as="sourcePoint" />
+            <mxPoint x="4296.727272727273" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A32. Виконати лабораторний аналіз" vertex="1">
+          <mxGeometry height="110" width="160" x="4546.727272727273" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Стандарти лабораторії">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4626.727272727273" y="1020" as="sourcePoint" />
+            <mxPoint x="4626.727272727273" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Лаборант, аналізатори">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4626.727272727273" y="1410" as="sourcePoint" />
+            <mxPoint x="4626.727272727273" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Біоматеріал">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4456.727272727273" y="1265" as="sourcePoint" />
+            <mxPoint x="4546.727272727273" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A33. Виконати інструментальну діагностику (УЗД, рентген, ЕКГ)" vertex="1">
+          <mxGeometry height="110" width="160" x="4852.967272727273" y="1209.67" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-34" value="Протоколи обстеження">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4922.969734213569" y="1072.6667383367367" as="sourcePoint" />
+            <mxPoint x="4876.727272727273" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-34" value="Лікар-діагност, апаратура">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4932.969734213569" y="1402.6667383367367" as="sourcePoint" />
+            <mxPoint x="4876.727272727273" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-34" value="Результати аналізів">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4706.727272727273" y="1265" as="sourcePoint" />
+            <mxPoint x="4796.727272727273" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-38" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-34" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Результати досліджень">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4956.727272727273" y="1265" as="sourcePoint" />
+            <mxPoint x="5191.727272727273" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-39" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="A31. Декомпозиція: Взяття біоматеріалу" vertex="1">
+          <mxGeometry height="30" width="900" x="1808.181818181818" y="1796.363636363637" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A311. Підготувати пацієнта і ідентифікувати зразок" vertex="1">
+          <mxGeometry height="110" width="160" x="2012.971818181818" y="2046.363636363637" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Регламент забору">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2122.181818181818" y="1856.363636363637" as="sourcePoint" />
+            <mxPoint x="2122.181818181818" y="2046.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Медсестра">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2122.181818181818" y="2246.363636363637" as="sourcePoint" />
+            <mxPoint x="2122.181818181818" y="2156.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-40" value="Призначені обстеження">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1808.181818181818" y="2101.363636363637" as="sourcePoint" />
+            <mxPoint x="2042.181818181818" y="2101.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A312. Відібрати зразок (кров, сеча)" vertex="1">
+          <mxGeometry height="110" width="160" x="2312.971818181818" y="2046.363636363637" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="Стандарти взяття зразків">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2372.181818181818" y="1856.363636363637" as="sourcePoint" />
+            <mxPoint x="2372.181818181818" y="2046.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-44" value="Медсестра, витратні матеріали">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2392.9697342135687" y="2242.6667383367367" as="sourcePoint" />
+            <mxPoint x="2372.181818181818" y="2156.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-47" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-40" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-44" value="Підготовлений пацієнт">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2202.181818181818" y="2101.363636363637" as="sourcePoint" />
+            <mxPoint x="2292.181818181818" y="2101.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" value="A313. Промаркувати і доставити зразок у лабораторію" vertex="1">
+          <mxGeometry height="110" width="160" x="2602.971818181818" y="2046.363636363637" as="geometry" />
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-48" value="Правила транспортування">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2682.9697342135687" y="1862.6667383367367" as="sourcePoint" />
+            <mxPoint x="2622.181818181818" y="2046.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="OOAcvrO87wZ386GwSQXE-48" value="Кур&#39;єр, журнал обліку">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2682.9697342135687" y="2252.6667383367367" as="sourcePoint" />
+            <mxPoint x="2622.181818181818" y="2156.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-51" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-44" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="OOAcvrO87wZ386GwSQXE-48" value="Зразок у контейнері">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2452.181818181818" y="2101.363636363637" as="sourcePoint" />
+            <mxPoint x="2542.181818181818" y="2101.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOAcvrO87wZ386GwSQXE-52" edge="1" parent="1" source="OOAcvrO87wZ386GwSQXE-48" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Біоматеріал у лабораторії">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2702.181818181818" y="2101.363636363637" as="sourcePoint" />
+            <mxPoint x="2937.181818181818" y="2101.363636363637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p1" name="A0 Декомпозиція">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b6" value="A1&#xa;Збирання анамнезу та скарг" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" value="Керування: протокол опитування" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8" value="Механізм: лікар" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b9" value="A2&#xa;Проведення медичного обстеження" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" value="Керування: клінічні протоколи" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="220" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a11" value="Механізм: лікар, обладнання, лабораторія" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="490" as="sourcePoint" />
+            <mxPoint x="500" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b12" value="A3&#xa;Аналіз результатів обстеження" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a13" value="Керування: медичні стандарти, МКХ-11" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="220" as="sourcePoint" />
+            <mxPoint x="730" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a14" value="Механізм: лікар-спеціаліст" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="490" as="sourcePoint" />
+            <mxPoint x="730" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b15" value="A4&#xa;Постановка діагнозу та оформлення" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="870" y="300" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a16" value="Керування: нормативні документи МОЗ" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="220" as="sourcePoint" />
+            <mxPoint x="960" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a17" value="Механізм: МІС" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="490" as="sourcePoint" />
+            <mxPoint x="960" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l18" value="анамнез" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b6" target="b9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l19" value="результати обстежень" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b9" target="b12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l20" value="висновок" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b12" target="b15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a21" value="Вхід: скарги та симптоми пацієнта" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0;entryY=0.5;" edge="1" parent="1" target="b6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="355" as="sourcePoint" />
+            <mxPoint x="180" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a22" value="Вихід: діагноз у медичній карті" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;" edge="1" parent="1" source="b15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="355" as="sourcePoint" />
+            <mxPoint x="1160" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="A2 Декомпозиція">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b23" value="A2.1&#xa;Фізикальний огляд пацієнта" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a24" value="Керування: клінічні протоколи" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a25" value="Механізм: лікар" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b26" value="A2.2&#xa;Призначення лабораторних досліджень" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a27" value="Керування: призначення лікаря" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="220" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a28" value="Механізм: лабораторія" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="490" as="sourcePoint" />
+            <mxPoint x="550" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b29" value="A2.3&#xa;Проведення інструментальних досліджень" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a30" value="Керування: інструкції апаратури" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="220" as="sourcePoint" />
+            <mxPoint x="830" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a31" value="Механізм: апаратура (УЗД, ЕКГ, рентген)" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="490" as="sourcePoint" />
+            <mxPoint x="830" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l32" value="дані огляду" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b23" target="b26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l33" value="заявки на дослідження" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b26" target="b29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a34" value="Вхід: анамнез" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0;entryY=0.5;" edge="1" parent="1" target="b23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="355" as="sourcePoint" />
+            <mxPoint x="170" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a35" value="Вихід: результати обстежень" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;" edge="1" parent="1" source="b29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="355" as="sourcePoint" />
+            <mxPoint x="1040" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p3" name="A3 Декомпозиція">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b36" value="A3.1&#xa;Порівняння симптомів із протоколами" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a37" value="Керування: клінічні рекомендації" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a38" value="Механізм: лікар-спеціаліст" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b39" value="A3.2&#xa;Диференціальна діагностика" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a40" value="Керування: медичні стандарти, МКХ-11" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="220" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a41" value="Механізм: лікар-спеціаліст" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="490" as="sourcePoint" />
+            <mxPoint x="550" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b42" value="A3.3&#xa;Формулювання висновку" style="rounded=0;whiteSpace=wrap;html=0;fontSize=12;align=center;verticalAlign=middle;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a43" value="Керування: нормативні документи" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=0;" edge="1" parent="1" target="b42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="220" as="sourcePoint" />
+            <mxPoint x="830" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a44" value="Механізм: МІС" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0.5;entryY=1;" edge="1" parent="1" target="b42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="490" as="sourcePoint" />
+            <mxPoint x="830" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l45" value="зіставлені дані" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b36" target="b39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l46" value="список можливих діагнозів" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b39" target="b42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a47" value="Вхід: результати обстежень" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;entryX=0;entryY=0.5;" edge="1" parent="1" target="b36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="355" as="sourcePoint" />
+            <mxPoint x="170" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a48" value="Вихід: висновок про стан пацієнта" style="endArrow=classic;html=0;fontSize=10;verticalLabelPosition=top;verticalAlign=bottom;align=center;exitX=1;exitY=0.5;" edge="1" parent="1" source="b42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="355" as="sourcePoint" />
+            <mxPoint x="1040" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
